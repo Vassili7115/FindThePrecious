@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'party_businessregular';
+    src: url('fonts/partybusiness-webfont.woff2') format('woff2'),
+         url('fonts/partybusiness-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironregular';
+    src: url('fonts/anirm___-webfont.woff2') format('woff2'),
+         url('fonts/anirm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tengwar_annatarregular';
+    src: url('fonts/tngan-webfont.woff2') format('woff2'),
+         url('fonts/tngan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  font-family: 'party_businessregular', sans-serif;
+}
+
+/*     NAVBAR     */
+
+.logo{
+  width: 210px;
+}
+
+header{
+  background-color: orangered;
+}
+
+.navbar-brand{
+  font-size: 23px;
+}
+
+#navbarNav li{
+  font-family: 'anironregular', sans-serif;
+}
+
+#navbarNav a{
+  color: white;
+  font-size: 16px;
+}
+
+#navbarNav a:hover{
+  text-decoration: underline;
+  text-underline-position: under; 
+}
+
+.nav-separator{
+  margin-left: 15px;
+}
+/*     END NAVBAR     */
+
+
+
+/*     CAROUSSEL     */
+.carousel-item img{
+  max-height: 700px;
+}
+
+.title-caroussel{
+  font-family: 'party_businessregular', sans-serif;
+  font-size: 80px;
+}
+
+.text-caroussel{
+  font-size: 40px;
+}
+/*     END CAROUSSEL     */
+
+
+/*     FELLOWS     */
+
+.white-image-back{
+  background-image: url("images/bg_light.png");
+}
+
+.container-title-fellows{
+  height: 200px;
+  padding: 55px 0 50px 28px;
+  margin-bottom: 40px;
+}
+
+.title-fellows{
+  font-size: 30px;
+  font-family: 'anironregular', sans-serif;
+}
+
+.span-title-fellows{
+  font-family: 'anironregular', sans-serif;
+  font-size: 20px;
+}
+
+
+.sigle-title-fellows{
+  font-family: 'tengwar_annatarregular', sans-serif;
+  font-size: 25px;
+  color: orangered;
+  vertical-align: super;
+  margin: 15px;
+  opacity: 0.7;
+}
+
+/*     buttons     */
+
+.sigle-pill-fellows{
+  display: none;
+}
+
+.button-fellows{
+  font-size: 20px;
+  font-family: 'anironregular', sans-serif;
+  width: 220px;
+  padding: 10px;
+  color: grey;
+}
+
+.button-fellows:hover{
+  font-size: 20px;
+  font-family: 'anironregular', sans-serif;
+  width: 220px;
+  color: orangered;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.button-fellows:hover .sigle-pill-fellows{ 
+  display: inline-flex;
+  font-family: 'tengwar_annatarregular', sans-serif;
+}
+
+/*     end buttons     */
+
+/*     Cards     */
+
+.card-view{
+  margin-top: 40px;
+  max-width: 375px;
+  border: 7px solid black;
+  border-radius: 3%;
+}
+
+.orange {
+  color: orangered;
+}
+
+.card-text {
+  color:white;
+  font-size: 30px;
+}
+
+.card-body-bgc{
+  background-color: black;
+
+}
+
+.perso {
+  opacity: 0.7;
+}
+
+.card:hover .perso {
+  opacity: 1;
+}
+
+.name-perso {
+  color:white;
+  font-size: 50px;
+  margin: 60% 0;
+  text-align: center;
+}
+
+.card:hover .name-perso {
+  font-size: 40px;
+  margin: 100% 0;
+}
+
+.rewardtxt {
+  position: absolute;
+  width: 87%;
+  height: 80px;
+  color:black;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 26px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card:hover .rewardtxt {
+  display:none;
+}
+
+.dead {
+  position: absolute;
+  width: 90%;
+  height: 80px;
+  color: orangered;
+  font-size: 60px;
+  text-align: center;
+}
+
+.name-perso-dead{
+  text-decoration : line-through rgba(255,69,0, 0.7);
+  padding-left: 5px;
+}
+
+.card:hover .dead {
+  display: none;
+}
+
+/*     End Cards     */
+
+/*     END FELLOWS     */
